@@ -3,6 +3,7 @@ def Bad_Words(fin):     #create a function and for parameters i put the file
     #assign the file into bad_letters (the name of the list) and i put the replace method in some symbols
     Bad_Letters=["f","c","k","r","F","C","K","R"]    #create another list with my bad consonants
     sum_Good=0  #thats my counter for the good vowels/consonants
+    
     for i in range(len(bad_letters)):   #create a loop for the file/list
         sum_Bad=0   #thats my counter for my bad consonants
         for j in range(len(Bad_Letters)):   #thats my second loop for the my second list
@@ -21,7 +22,8 @@ fin.close() #close the file
 
 fin = open("Askhsh2.txt", "r+")  #we open the file with the read methhod
 char1 = fin.read(1)     #get the first character
-while True:     #check the elements of the file with a loop
+
+while True: #check the elements of the file with a loop
   if not char1:     #if it don't find the first character
     print "Your file is empty, please write something!"  
     fin.close()     #we close the file
