@@ -30,5 +30,6 @@ print "didn't find a match"
 
 #sources:
 #https://realpython.com/working-with-files-in-python/#pythons-with-open-as-pattern <--'With open/as' another method to open a file 
-#https://stackoverflow.com/questions/60327954/convert-a-file-into-a-list-with-integers <-- i made this question in stack overflow because when i turn the file into a list, the objects were strings and i wanted to be integers
+#https://stackoverflow.com/questions/60327954/convert-a-file-into-a-list-with-integers 
+#<-- i made this question in stack overflow because when i turn the file into a list, the objects were strings and i wanted to be integers
 #https://stackoverflow.com/questions/73663/terminating-a-python-script?fbclid=IwAR1OAFknwD4hxRLH-Vk2m1yhbdsWRKJ-UsMOTlpStBnwlKpp0Ymvnq309hU <-- About the quit() function
