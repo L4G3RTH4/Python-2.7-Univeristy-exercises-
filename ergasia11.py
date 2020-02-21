@@ -9,7 +9,7 @@ for i in range(len(raw_list)): #run the length of the of the list/file
    newlist.append(map(int, raw_list[i].split(','))) #i convert the strings into integers
 
 for i in range(6): #i want my input to show 6 times
-  askhseis=input("Give me 1 number (from 1-14) ") 
+  askhseis=input("Give me 1 number ") 
   askhseis_choose.append(askhseis) #append the users input into the list 
 
 counter=0 #that's my counter
